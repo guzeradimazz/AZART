@@ -1230,13 +1230,17 @@ button {
     }
     .slide-it{
       height: 340px;
+      width: 250px;
       margin-left: 20px;
     }
     .people-info{
       margin-bottom: 24px;
     }
+    .people-icon{
+      height: 70px;
+    }
     .slide-it p:nth-child(2){
-      width: 80%;
+      width: 90%;
     }
     .answer-footer{
       margin-top: 10px;
@@ -1250,7 +1254,7 @@ button {
     }
     .slide-recept{
       width: 295px;
-      height: 160px;
+      height: 175px;
       margin-right: 0;
       margin-left: 5px;
     }
@@ -1309,9 +1313,9 @@ button {
       height: 75px;
     }
     .slide-master{
-      width: 300px;
+      width: 290px;
       height: 200px;
-      margin-left: -50px;
+      margin-left: -70px;
     }
     .master-body{
       padding: 0;
