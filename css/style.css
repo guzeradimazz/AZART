@@ -1164,7 +1164,7 @@ button {
       width: 130px;
     }
     .header-search-search{
-      width: 70%;
+      width: 80%;
       margin: auto;
     }
     .header-search ul{
@@ -1277,5 +1277,46 @@ button {
     }
     .up{
       margin-top: 20px;
+    }
+    .stripe:nth-child(3){
+      display: none;
+    }
+    .header-search{
+      width: 414px;
+    }
+    .footer{
+      flex-direction: column;
+      padding: 10px 5% 10px 5%;
+      top: 0;
+      right: 0;
+    }
+    .stripe:nth-child(2){
+      margin: auto;
+      text-align: center;
+    }
+    .social{
+      margin: auto;
+    }
+    .stripe:nth-child(1) .footer-logo{
+      width: 150px;
+      margin: auto;
+    }
+    .stripe:nth-child(2) h2{
+      text-align: center;
+    }
+    .slide-master img {
+      width: 75px;
+      height: 75px;
+    }
+    .slide-master{
+      width: 300px;
+      height: 200px;
+      margin-left: -50px;
+    }
+    .master-body{
+      padding: 0;
+    }
+    .recept-body p:nth-child(2) {
+      width: 85%;
     }
 }
