@@ -1204,6 +1204,15 @@ button {
     .nav-table-item{
       width: 100%;
     }
+    .prev2{
+      margin-top: -130px;
+    }
+    .carousel-items{
+      margin-bottom: 20px;
+    }
+    .next2{
+      margin-top: -130px;
+    }
     .nav-table{
       margin-top: 20px;
     }
@@ -1235,8 +1244,9 @@ button {
     }
     .slide-it{
       height: 340px;
-      width: 250px;
       margin-left: 20px;
+      width: 95%;
+      margin-right: 20px;
     }
     .people-info{
       margin-bottom: 24px;
