@@ -548,7 +548,12 @@ span:last-child {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
+.price-item-test{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
 .price-item button {
   cursor: pointer;
   width: 30px;
