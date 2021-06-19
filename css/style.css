@@ -1476,4 +1476,7 @@ button {
   .tag{
     align-items: center;
   }
+  .arrow-slider img{
+    margin: 0;
+  }
 }
