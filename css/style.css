@@ -1424,3 +1424,56 @@ button {
     justify-content: center;
   }
 }
+@media (max-width: 320px) {
+  .insta-text-body{
+    width: 300px;
+  }
+  .second-block-h2{
+    font-size: 24px;
+    width: 300px;
+  }
+  .slide-master{
+    width: 270px;
+  }
+  .slide-recept{
+    width: 270px;
+    margin-left: 20px;
+  }
+  .slide-it{
+    width: 270px;
+    margin-left: 10px;
+  }
+  .header-image{
+    padding: 0;
+    width: 100px;
+    text-align: center;
+  }
+  .header-image:nth-child(1){
+    margin-top: 10px;
+  }
+  .header-items-phone{
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: auto;
+  }
+  .header-top{
+    height: 75px;
+  }
+  .header-line{
+    min-width: 200px;
+  }
+  .thin-text{
+    padding-left: 0;
+  }
+  .top-logo{
+    margin-bottom: 0;
+    width: 160px;
+  }
+  .header-bottom{
+    height: 315px;
+  }
+  .tag{
+    align-items: center;
+  }
+}
