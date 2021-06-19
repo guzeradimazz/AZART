@@ -574,7 +574,8 @@ span:last-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 20px;
+  text-align: center;
+  justify-content: center;
   background-color: #f8dc23;
 }
 
@@ -1123,11 +1124,29 @@ button {
   display: flex;
   flex-direction: row;
 }
+
+.price-item-test{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.people-icon{
+  height: 70px;
+}
 @media (max-width: 414px){
     .header-top{
       height: 55px;
       flex-wrap: wrap;
       font-size: 10px;
+    }
+    .price-item{
+      display: flex;
+      flex-direction: column;
+    }
+    .price-item p{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 10px;
     }
     .not-active{
       display: none;
@@ -1138,19 +1157,18 @@ button {
     }
     .header-line{
       display: flex;
+      min-width: 240px;
       flex-direction: row;
       align-items: center;
-      min-width: 240px;
       margin-top: 5px;
     }
     .header-line:nth-child(2){
-      margin-left: 10px;
+      flex-direction: row-reverse;
     }
     .tag{
       display: flex;
       flex-direction: row;
       align-items: flex-start;
-      min-width: 100px;
       margin-bottom: 15px;
     }
     .header-block{
@@ -1190,6 +1208,9 @@ button {
     }
     .header-image{
       padding-right: 30px;
+    }
+    .header-image img{
+      height: 60px;
     }
     .header-image:nth-child(1){
       padding: 0;
@@ -1239,9 +1260,6 @@ button {
     .second-block{
       margin: 30px 4% 0 4%;
     }
-    .to-bucket img{
-      padding-right: 10px;
-    }
     .slide-it{
       height: 340px;
       margin-left: 20px;
@@ -1251,9 +1269,7 @@ button {
     .people-info{
       margin-bottom: 24px;
     }
-    .people-icon{
-      height: 70px;
-    }
+    
     .slide-it p:nth-child(2){
       width: 90%;
     }
