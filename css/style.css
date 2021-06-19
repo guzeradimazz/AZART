@@ -1093,7 +1093,12 @@ span:last-child {
           justify-content: center;
   cursor: pointer;
 }
-
+.header-search-search input{
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
 @font-face {
   font-family: MuseoSans;
   src: url("../font/MuseoSans/MuseoSansCyrl-300.ttf");
