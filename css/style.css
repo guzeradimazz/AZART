@@ -1021,6 +1021,10 @@ span:last-child {
       -ms-flex-align: center;
           align-items: center;
 }
+.insta-text{
+
+  max-width: 400px;
+}
 
 .insta-text-head {
   font-weight: 600;
