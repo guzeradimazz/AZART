@@ -290,3 +290,105 @@ hr {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+input[type=radio] {
+    min-width: 14px;
+}
+@media (max-width:414px) {
+    .bucket-body h2{
+        padding-top: 20px;
+    }
+    .bucket-body-info{
+        flex-direction: column;
+    }
+    .bucket-body{
+        padding: 35px;
+    }
+    .bucket-product-p p{
+        margin: 0;
+        display: none;
+    }
+    .bucket-product-card{
+        width: 320px;
+        height: 280px;
+        flex-direction: column-reverse;
+    }
+    .product-card-line{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .delete{
+        padding: 5px 5px 0 0;
+    }
+    .bucket-product-card-p {
+        text-align: center;
+    }
+    .bucket-price-head{
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .bucket-order{
+        margin: 0;
+    }
+    .order-body{
+        margin: 0;
+        padding-top: 20px;
+    }
+    .order-body h2{
+        font-size: 20px;
+    }
+    .order-line{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second {
+        width: 344px;
+    }
+    .order-line-delivery{
+        height: 250px;
+    }
+    .contacts-line{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts-line input{
+        width: 97%;
+    }
+    .contacts-line input:nth-child(1){
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:375px) {
+    .bucket-product-card{
+        width: 325px;
+    }
+    .bucket-body{
+        padding: 15px;
+    }
+}
+@media (max-width:320px) {
+    .bucket-product-card{
+        width: 270px ;
+        min-height: 300px;
+    }
+    .bucket-product-card-p{
+        width: 200px;
+    }
+    .order-body h2{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .first {
+        width: 300px;
+    }
+    .second{
+        width: 300px;
+    }
+    .payment-license{
+        width: 280px;
+    }
+}
