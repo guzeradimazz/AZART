@@ -43,7 +43,9 @@ ul[class],
 ol[class] {
   list-style: none;
 }
-
+.quaintity{
+  margin-left: 10px;margin-right: 10px;
+}
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a:not([class]) {
   text-decoration-skip-ink: auto;
