@@ -1147,6 +1147,12 @@ button {
       flex-wrap: wrap;
       font-size: 10px;
     }
+    .active-display{
+      display: block;
+    }
+    .px{
+      display: none;
+    }
     .price-item{
       display: flex;
       flex-direction: column;
@@ -1292,10 +1298,10 @@ button {
       width: 110px;
     }
     .slide-recept{
-      width: 295px;
+      width: 350px;
       height: 175px;
-      margin-right: 0;
-      margin-left: 5px;
+      margin-left: 27px;
+      margin-bottom: 5px;
     }
     .recept-body p:nth-child(1){
       margin-bottom: 10px;
@@ -1352,9 +1358,10 @@ button {
       height: 75px;
     }
     .slide-master{
-      width: 290px;
-      height: 200px;
-      margin-left: -70px;
+      width: 350px;
+      height: 175px;
+      margin-left: -50px;
+      margin-bottom: 5px;
     }
     .master-body{
       padding: 0;
@@ -1367,20 +1374,19 @@ button {
 @media (max-width: 375px) {
   .slide-it{
     padding: 15px;
-    width: 310px;
+    width: 300px;
   }
-  .active-display{
-    display: block;
+  .header-items{
+    width: 375px;
   }
+  
   .img-recepy{
     width: 90px;
   }
   .slide-recept{
     margin: auto;
   }
-  .px{
-    display: none;
-  }
+  
   .slide-recept {
     height: 150px;
     width: 310px;
