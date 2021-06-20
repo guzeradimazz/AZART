@@ -11,70 +11,70 @@
   <title>AZART CAKE | Лучший магазин для пекарей и кондитеров</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-top">
-          <div class="header-items not-active">
+  <header class="header">
+    <div class="header-top">
+      <div class="header-items not-active">
+        <img class="top-icon" src="images/icons/Location.svg" alt="">
+        <p class="simple-text">Подольск, улица Клемента Готвальда д.9</p>
+        <img src="images/icons/delivery.svg" alt="" class="top-icon">
+        <a class="phone" href="tel:+79161006045">+7(916)100-60-45</a>
+        <p class="thin-text">Пишите в WhatsApp</p>
+        <img src="images/icons/whatsapp.svg" alt="" class="top-icon">
+        <img src="images/icons/delivery.svg" alt="" class="top-icon">
+        <p class="simple-text">Бесплатная доставка <t class="yellow"> от 3000 </t> рублей!</p>
+      </div>
+      <div class="header-items-phone">
+        <div class="header-block">
+          <div class="header-line">
             <img class="top-icon" src="images/icons/Location.svg" alt="">
-            <p class="simple-text">Подольск, улица Клемента Готвальда д.9</p>
-            <img src="images/icons/delivery.svg" alt="" class="top-icon">
+            <p class="simple-text">Подольск, улица Клемента Готвальда д.9</p>  
+          </div>
+          <div class="header-line">
             <a class="phone" href="tel:+79161006045">+7(916)100-60-45</a>
             <p class="thin-text">Пишите в WhatsApp</p>
             <img src="images/icons/whatsapp.svg" alt="" class="top-icon">
-            <img src="images/icons/delivery.svg" alt="" class="top-icon">
-            <p class="simple-text">Бесплатная доставка <t class="yellow"> от 3000 </t> рублей!</p>
-          </div>
-          <div class="header-items-phone">
-            <div class="header-block">
-              <div class="header-line">
-                <img class="top-icon" src="images/icons/Location.svg" alt="">
-                <p class="simple-text">Подольск, улица Клемента Готвальда д.9</p>  
-              </div>
-              <div class="header-line">
-                <a class="phone" href="tel:+79161006045">+7(916)100-60-45</a>
-                <p class="thin-text">Пишите в WhatsApp</p>
-                <img src="images/icons/whatsapp.svg" alt="" class="top-icon">
-              </div>
-            </div>
-            <div class="tag">
-              <img src="images/icons/delivery.svg" alt="" class="top-icon">
-              <p class="simple-text">Бесплатная доставка <t class="yellow"> от 3000 </t> рублей!</p>
-            </div>
           </div>
         </div>
-        <div class="header-bottom">
-          <div class="header-items">
-            <a href="index.html"><img class="top-logo" src="images/icons/LOGO.svg" alt=""></a>
-            <div class="header-search">
-              <div class="header-search-search">
-                <input type="text" placeholder="Поиск">
-                <button>Найти</button>
-              </div>
-              <ul>
-                <a href="#">Каталог</a>
-                <a href="#">Оплата и доставка</a>
-                <a href="#">О нас</a>
-                <a href="#">Производители</a>
-                <a href="#">Контакты</a>
-              </ul>
-            </div>
-            <div class="block-items123">
-              <div class="header-image">
-                <img src="images/icons/User.svg" alt="">
-                <p class="yellow">Личный кабинет</p>
-              </div>
-              <div class="header-image">
-                <img src="images/icons/heart-stroke.svg" alt="">
-                <p class="yellow">Избранное</p>
-              </div>
-              <a href="korzina.html" class="header-image">
-                <img src="images/icons/Shoping.png" alt="">
-                <p class="yellow">Корзина</p>
-              </a>
-            </div>
-          </div>
+        <div class="tag">
+          <img src="images/icons/delivery.svg" alt="" class="top-icon">
+          <p class="simple-text">Бесплатная доставка <t class="yellow"> от 3000 </t> рублей!</p>
         </div>
-    </header>
-    <div class="bucket-body">
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="header-items">
+        <a href="index.html"><img class="top-logo" src="images/icons/LOGO.svg" alt=""></a>
+        <div class="header-search">
+          <div class="header-search-search">
+            <input type="text" placeholder="Поиск">
+            <button class="search-hover">Найти</button>
+          </div>
+          <ul>
+            <a class="hover" href="#">Каталог</a>
+            <a class="hover" href="#">Оплата и доставка</a>
+            <a class="hover" href="#">О нас</a>
+            <a class="hover" href="#">Производители</a>
+            <a class="hover" href="#">Контакты</a>
+          </ul>
+        </div>
+        <div class="block-items123">
+          <div class="header-image">
+            <img src="images/icons/User.svg" alt="">
+            <p class="yellow">Личный кабинет</p>
+          </div>
+          <div class="header-image">
+            <img src="images/icons/heart-stroke.svg" alt="">
+            <p class="yellow">Избранное</p>
+          </div>
+          <a href="korzina.html" class="header-image">
+            <img src="images/icons/Shoping.png" alt="">
+            <p class="yellow">Корзина</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="bucket-body">
         <div class="bucket-body-navigation">
             <a href="index.html">Главная</a>
             <img src="images/icons/right-swipe.png" alt="">
@@ -121,14 +121,13 @@
                 </p>
                 <div class="bucket-order">
                     <h2>2170 p.</h2>
-                    <button><img src="images/icons/shopping-bags.svg" alt="">Перейти к оформлению</button>
+                    <button onclick="showorder()"><img src="images/icons/shopping-bags.svg" alt="">Перейти к оформлению</button>
                     <p style="color: gray;">Доступный способы достваки можно выбрать при оформлении заказа</p>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="order-body">
+  </div>
+  <div class="order-body disabled">
         <h2 class="second-block-h2">Оформление заказа</h2>
         <div class="order-line">
             <div class="offerh first">
@@ -205,84 +204,84 @@
             </div>
         </div>
         <button>Оформить заказ</button>
-    </div>
-
-    <footer class="footer">
-        <div class="stripe">
-          <img src="images/icons/LOGO.svg" alt="" class="footer-logo">
-          <div class="footer-infos">
-            <div class="line">
-              <img class="top-icon" src="images/icons/clock.svg" alt="">
-              <p class="simple-text">Режим работы с 9 до 21 ежедневно</p>
-            </div>
-            <div class="line">
-              <img class="top-icon" src="images/icons/Location.svg" alt="">
-              <p class="simple-text">Подольск, улица Клемента Готвальда д.9</p>
-            </div>
-            <div class="line">
-              <img src="images/icons/whatsapp.svg" alt="" class="top-icon">
-              <a class="phone" href="tel:+79161006045">+7(916)100-60-45</a>
-              <p class="thin-text">Пишите в WhatsApp</p>
-            </div>
-            <div class="line">
-              <img src="images/icons/delivery.svg" alt="" class="top-icon">
-              <p class="simple-text">Бесплатная доставка <t class="yellow"> от 3000 </t> рублей!</p>
-            </div>
+  </div>
+  <footer class="footer">
+      <div class="stripe">
+        <img src="images/icons/LOGO.svg" alt="" class="footer-logo">
+        <div class="footer-infos">
+          <div class="line">
+            <img class="top-icon" src="images/icons/clock.svg" alt="">
+            <p class="simple-text">Режим работы с 9 до 21 ежедневно</p>
           </div>
-          <div class="social">
-            <img src="images/icons/instagram-colour.svg" alt="">
-            <img src="images/icons/whatsapp.svg" alt="">
+          <div class="line">
+            <img class="top-icon" src="images/icons/Location.svg" alt="">
+            <p class="simple-text">Подольск, улица Клемента Готвальда д.9</p>
+          </div>
+          <div class="line">
+            <img src="images/icons/whatsapp.svg" alt="" class="top-icon">
+            <a class="phone" href="tel:+79161006045">+7(916)100-60-45</a>
+            <p class="thin-text">Пишите в WhatsApp</p>
+          </div>
+          <div class="line">
+            <img src="images/icons/delivery.svg" alt="" class="top-icon">
+            <p class="simple-text">Бесплатная доставка <t class="yellow"> от 3000 </t> рублей!</p>
           </div>
         </div>
-        <div class="stripe">
-          <h2>Информация</h2>
-          <ul>
-            <a href="#">
-              <li>Корзина</li>
-            </a>
-            <a href="#">
-              <li>Личный кабинет</li>
-            </a>
-            <a href="#">
-              <li>Оплата и доставка</li>
-            </a>
-            <a href="#">
-              <li>О нас</li>
-            </a>
-            <a href="#">
-              <li>Производители</li>
-            </a>
-            <a href="#">
-              <li>Контакты</li>
-            </a>
-            <a href="#">
-              <li>Публичная оферта</li>
-            </a>
-            <a href="#">
-              <li>Политика конфиденциальности</li>
-            </a>
-          </ul>
+        <div class="social">
+          <img src="images/icons/instagram-colour.svg" alt="">
+          <img src="images/icons/whatsapp.svg" alt="">
         </div>
-        <div class="stripe">
-          <h2>Рецепты магазина</h2>
-          <ul>
-            <a href="#">
-              <li>Воздушные шарики Choco Crisp</li>
-            </a>
-            <a href="#">
-              <li>Пломбир в вафельном рожке</li>
-            </a>
-            <a href="#">
-              <li>Муссовые пирожные</li>
-            </a>
-            <a href="#">
-              <li>Творожные сырки</li>
-            </a>
-            <a href="#">
-              <li>Шоколадные яйца</li>
-            </a>
-          </ul>
-        </div>
-    </footer>
+      </div>
+      <div class="stripe">
+        <h2>Информация</h2>
+        <ul>
+          <a class="hover" href="#">
+            <li>Корзина</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Личный кабинет</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Оплата и доставка</li>
+          </a>
+          <a class="hover" href="#">
+            <li>О нас</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Производители</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Контакты</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Публичная оферта</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Политика конфиденциальности</li>
+          </a>
+        </ul>
+      </div>
+      <div class="stripe">
+        <h2>Рецепты магазина</h2>
+        <ul>
+          <a class="hover" href="#">
+            <li>Воздушные шарики Choco Crisp</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Пломбир в вафельном рожке</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Муссовые пирожные</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Творожные сырки</li>
+          </a>
+          <a class="hover" href="#">
+            <li>Шоколадные яйца</li>
+          </a>
+        </ul>
+      </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>

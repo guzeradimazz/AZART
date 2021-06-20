@@ -170,6 +170,10 @@ select {
 .header-search ul a {
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
 }
 
 .header-search-search {
@@ -186,6 +190,9 @@ select {
 }
 
 .header-search-search input {
+  -webkit-box-shadow: -60px 0px 62px -23px rgba(34, 60, 80, 0.24) inset; 
+  -moz-box-shadow: -60px 0px 62px -23px rgba(34, 60, 80, 0.24) inset; 
+  box-shadow: -60px 0px 62px -23px rgba(34, 60, 80, 0.24) inset;
   width: 380px;
   padding: 3px 3px 3px 40px;
   background: url("../images/icons/Search.svg") no-repeat;
@@ -227,7 +234,16 @@ select {
   width: 40px;
   height: 70px;
   margin: 0 auto;
+  
 }
+.header-image:hover{
+  background-color: #e6e8f57a;
+}
+.header-image{
+  padding-bottom: 5px;
+  padding-left: 9px;
+}
+
 
 .footer {
   background-color: #15161a;
@@ -339,8 +355,11 @@ select {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
   background-color: #e6e8f5;
+}
+.slider-body{
+  margin-left: 3%;
 }
 
 .nav-table {
@@ -1182,11 +1201,97 @@ button {
 .active-display{
   display: none;
 }
+.search-hover{
+  z-index: 10;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.search-hover:hover{
+  background-color: #e6e8f5;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.hoverssl:hover{
+  color: #f8dc23;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.price-item-test button:hover{
+  border: .5px solid gray;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.to-bucket{
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.to-bucket:hover{
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+  background-color: rgb(115, 230, 111);
+}
+.read-recept{
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.read-recept:hover{
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+  text-decoration: underline ;
+}
+.insta-text-btn{
+  height: 50px;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+.insta-text-btn:hover{
+  color: #fff;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+  background: rgb(252,176,69);
+  background: linear-gradient(8deg, rgba(252,176,69,1) 17%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 97%);
+}
+.up{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.up:hover{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #f8dc23;
+}
 @media (max-width: 414px){
     .header-top{
       height: 55px;
       flex-wrap: wrap;
       font-size: 10px;
+    }
+    .slider-body{
+      margin-left: 0%;
     }
     .thin-text:nth-child(3){
       font-size: 15px;
@@ -1420,7 +1525,6 @@ button {
       width: 85%;
     }
 }
-
 @media (max-width: 375px) {
   .slide-it{
     padding: 15px;
@@ -1429,7 +1533,9 @@ button {
   .header-items{
     width: 375px;
   }
-  
+  .slider-body{
+    margin-left: 0%;
+  }
   .img-recepy{
     width: 90px;
   }
@@ -1469,6 +1575,9 @@ button {
 @media (max-width: 320px) {
   .insta-text-body{
     width: 300px;
+  }
+  .slider-body{
+    margin-left: 0%;
   }
   .thin-text:nth-child(3){
     font-size: 15px;

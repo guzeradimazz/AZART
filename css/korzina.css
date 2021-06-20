@@ -293,6 +293,10 @@ hr {
 input[type=radio] {
     min-width: 14px;
 }
+.disabled{
+    display: none;
+}
+
 @media (max-width:414px) {
     .bucket-body h2{
         padding-top: 20px;
