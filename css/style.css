@@ -1188,6 +1188,15 @@ button {
       flex-wrap: wrap;
       font-size: 10px;
     }
+    .thin-text:nth-child(3){
+      font-size: 15px;
+      margin-left: 10px;
+      padding: 0;
+      min-width: 90px;
+    }
+    .line:nth-child(3){
+      align-items: flex-start;
+    }
     .active-display{
       display: block;
     }
@@ -1429,7 +1438,7 @@ button {
   }
   
   .slide-recept {
-    height: 150px;
+    height: 165px;
     width: 310px;
   }
   .people-icon{
@@ -1460,6 +1469,15 @@ button {
 @media (max-width: 320px) {
   .insta-text-body{
     width: 300px;
+  }
+  .thin-text:nth-child(3){
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 0;
+    width: 90px;
+  }
+  .line{
+    align-items: flex-start;
   }
   .second-block-h2{
     font-size: 24px;
